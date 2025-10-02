@@ -9,7 +9,7 @@
 This repository contains the code, scripts, and data used to reproduce the results from our paper:
 
 > **"How Low Can You Go? The   Data-Light SE Challenge"**  
-> _Submitted to FSE 2025 (Double-Blind Review)_
+> _Submitted to FSE 2026 (Double-Blind Review)_
 
 We present the **BINGO effect**, a prevalent data compression phenomenon in software engineering (SE) optimization. Leveraging this, we show that **simple optimizers**—`RANDOM`, `LITE`, `LINE`—perform on par with the state-of-the-art `DEHB`, while running up to **10,000× faster**.
 
@@ -176,3 +176,4 @@ cd experiments/
 
 
 ---
+
