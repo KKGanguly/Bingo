@@ -28,9 +28,9 @@ All experiments were run on a 4-core Linux (Ubuntu 24.04) system (1.30GHz, 16GB 
   - Effectiveness/ Benefit: distance-to-heaven (multi-objective)
   - Cost: no. of accessed labels, wall-clock time
 ---
-## 📊 Reproducing the Results (Table V, Figures 5 & 6)
+## 📊 Reproducing the Results (Table 4, Figures 4 & 5)
 
-These instructions reproduce all core results from the paper, including **Table V**, **Figure 5**, and **Figure 6**.
+These instructions reproduce all core results from the paper, including **Table 4**, **Figure 4**, and **Figure 5**.
 
 All experiments were run using **Python 3.13**.
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ---
 
-### ➤ Step 2: Generate Table V
+### ➤ Step 2: Generate Table 4
 
 ```bash
 cd experiments/LUA_run_all/
@@ -60,7 +60,7 @@ results/optimization_performance/report.csv
 
 ---
 
-### ➤ Step 3: Generate Figure 5 (%Best vs. Label Budget)
+### ➤ Step 3: Generate Figure 4 (%Best vs. Label Budget)
 
 ```bash
 cd experiments/
@@ -69,7 +69,7 @@ python3 optim_performance_comp.py
 
 ---
 
-### ➤ Step 4: Generate Figure 6 (Runtime Comparison)
+### ➤ Step 4: Generate Figure 5 (Runtime Comparison)
 
 ```bash
 cd experiments/
@@ -176,4 +176,5 @@ cd experiments/
 
 
 ---
+
 
