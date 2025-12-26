@@ -1,15 +1,8 @@
-# 🔍 Anonymous Repository for ASE Submission: "BINGO! Simple Optimizers Win Big if Problems Collapse to a Few Buckets"
-
-> **Note:** This repository has been anonymized to comply with double-blind review requirements for ASE 2025. All identifying information (author names, institutional references, Git history) has been redacted. Full attribution and licensing will be restored upon acceptance.
-
----
-
-## 📄 Summary
+# 🔍 Repository for "BINGO! Simple Optimizers Win Big if Problems Collapse to a Few Buckets"
 
 This repository contains the code, scripts, and data used to reproduce the results from our paper:
 
 > **"BINGO! Simple Optimizers Win Big if Problems Collapse to a Few Buckets"**  
-> _Submitted to ASE 2025 (Double-Blind Review)_
 
 We present the **BINGO effect**, a prevalent data compression phenomenon in software engineering (SE) optimization. Leveraging this, we show that **simple optimizers**—`RANDOM`, `LITE`, `LINE`—perform on par with the state-of-the-art `DEHB`, while running up to **10,000× faster**.
 
@@ -163,7 +156,7 @@ cd experiments/
 
 ## 🔐 License
 
-> Temporarily redacted for double-blind review. Includes MIT-licensed components. Full license will be restored upon acceptance.
+> Temporarily redacted for review. Includes MIT-licensed components. Full license will be restored upon acceptance.
 
 ---
 
@@ -175,3 +168,4 @@ cd experiments/
 - 🧪 Artifact DOI
 
 ---
+
