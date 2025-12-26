@@ -1,6 +1,6 @@
-# 🔍 Anonymous Repository for "How Low Can You Go? The Data-Light SE Challenge"
+# 🔍 Anonymous Repository for ASE Submission: "BINGO! Simple Optimizers Win Big if Problems Collapse to a Few Buckets"
 
-> **Note:** This repository has been anonymized to comply with double-blind review requirements. All identifying information (author names, institutional references, Git history) has been redacted. Full attribution and licensing will be restored upon acceptance.
+> **Note:** This repository has been anonymized to comply with double-blind review requirements for ASE 2025. All identifying information (author names, institutional references, Git history) has been redacted. Full attribution and licensing will be restored upon acceptance.
 
 ---
 
@@ -8,8 +8,8 @@
 
 This repository contains the code, scripts, and data used to reproduce the results from our paper:
 
-> **"How Low Can You Go? The   Data-Light SE Challenge"**  
-> _Submitted to FSE 2026 (Double-Blind Review)_
+> **"BINGO! Simple Optimizers Win Big if Problems Collapse to a Few Buckets"**  
+> _Submitted to ASE 2025 (Double-Blind Review)_
 
 We present the **BINGO effect**, a prevalent data compression phenomenon in software engineering (SE) optimization. Leveraging this, we show that **simple optimizers**—`RANDOM`, `LITE`, `LINE`—perform on par with the state-of-the-art `DEHB`, while running up to **10,000× faster**.
 
@@ -28,9 +28,9 @@ All experiments were run on a 4-core Linux (Ubuntu 24.04) system (1.30GHz, 16GB 
   - Effectiveness/ Benefit: distance-to-heaven (multi-objective)
   - Cost: no. of accessed labels, wall-clock time
 ---
-## 📊 Reproducing the Results (Table 4, Figures 4 & 5)
+## 📊 Reproducing the Results (Table V, Figures 5 & 6)
 
-These instructions reproduce all core results from the paper, including **Table 4**, **Figure 4**, and **Figure 5**.
+These instructions reproduce all core results from the paper, including **Table V**, **Figure 5**, and **Figure 6**.
 
 All experiments were run using **Python 3.13**.
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ---
 
-### ➤ Step 2: Generate Table 4
+### ➤ Step 2: Generate Table V
 
 ```bash
 cd experiments/LUA_run_all/
@@ -60,7 +60,7 @@ results/optimization_performance/report.csv
 
 ---
 
-### ➤ Step 3: Generate Figure 4 (%Best vs. Label Budget)
+### ➤ Step 3: Generate Figure 5 (%Best vs. Label Budget)
 
 ```bash
 cd experiments/
@@ -69,7 +69,7 @@ python3 optim_performance_comp.py
 
 ---
 
-### ➤ Step 4: Generate Figure 5 (Runtime Comparison)
+### ➤ Step 4: Generate Figure 6 (Runtime Comparison)
 
 ```bash
 cd experiments/
@@ -174,7 +174,4 @@ cd experiments/
 - 📁 Dataset DOI
 - 🧪 Artifact DOI
 
-
 ---
-
-
